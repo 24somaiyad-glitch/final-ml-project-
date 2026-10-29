@@ -1,0 +1,35 @@
+{
+  "raw_rows": 3530,
+  "missing": 141,
+  "duplicates": 35,
+  "outliers_capped": 8,
+  "vehicle_outliers_capped": 5,
+  "clean_rows": 3495,
+  "train_rows": 2796,
+  "test_rows": 699,
+  "best_model": "Logistic Regression",
+  "linear_regression": {
+    "MAE": 2.0463001188779875,
+    "RMSE": 2.764061466382715,
+    "R2": 0.8039899236021659
+  },
+  "vehicle_regression": {
+    "MAE": 57.82973895905195,
+    "RMSE": 80.14656459852786,
+    "R2": 0.8763829003838105
+  },
+  "choices": {
+    "Weather": [
+      "Clear",
+      "Cloudy",
+      "Rain",
+      "Fog"
+    ],
+    "Area": [
+      "Downtown",
+      "Highway",
+      "Industrial",
+      "Residential"
+    ]
+  }
+}
